@@ -6,7 +6,7 @@
 <p>Data used for this project was taken from <a href=''>here</a></p>
 
 ### 1. Data Cleaning and Pre-Processing
-The data consist of three tables books, users and ratings. Data from all three tables is cleaned and preprocessed separately as:<br>
+The data consist of three tables books, users and ratings. Data from all three tables is cleaned and preprocessed separately as:<br><br>
 For Books Table:
 * Drop all three Image URL features.
 * Check for the number of null values in each column. There comes only 3 null values in the table. Replace these three empty cells with ‘Other’.
