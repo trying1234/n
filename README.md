@@ -12,8 +12,8 @@ The data consist of three tables books, users and ratings. Data from all three t
 #### 2.1 Popularity Based Recommendation :
 
 
-* Popularity Based(Top in Whole Collection)
-* Popularity Based(Top in Given Place)
+* Popular in Whole Collection
+* Popular in Given Place
 * Books By Same Author, Publisher of Given Book Name
 * Popular Books Yearly
 
@@ -26,3 +26,11 @@ The data consist of three tables books, users and ratings. Data from all three t
 
 #### 2.6 Content Based Recommendation
 #### 2.7 Hybrid Approach (Collaborative+Content) Recommendation
+
+### 3. Libraries Used:
+
+* ipython-notebook - Python Text Editor
+* sklearn - Machine learning library
+* seaborn, matplotlib.pyplot, - Visualization libraries
+* numpy, scipy- number python library
+* pandas - data handling library
