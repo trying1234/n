@@ -1,5 +1,5 @@
 # Book Recommendation System
-### Check Out Our Blog On Book Recommendation Systems Here:
+### Check Out Our Blog On Book Recommendation System Here:
 <a href=''>Book Recommendation System</a>
 ## Description:
 <p>A book recommendation system which recommends books based on previous users preferences. </p>
