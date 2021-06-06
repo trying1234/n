@@ -36,10 +36,10 @@ For Ratings Table:
 We have sorted the dataset according to the total ratings each of the books have received in non-increasing order and then recommended top n books.
 
 * ##### Popular at a Given Place <br>
-The dataset was filtered according to a given place (city, state, or country) and then sorted it according to total ratings they have received by the users in decreasing order of that place and recommended top n books.
+The dataset was filtered according to a given place (city, state, or country) and then sorted according to total ratings they have received by the users in decreasing order of that place and recommended top n books.
 
 * ##### Books By the Same Author, Publisher of Given Book Name <br>
-For this model we have sorted the books by rating for the same author and same publisher of given book and recommended top n books.
+For this model, we have sorted the books by rating for the same author and same publisher of the given book and recommended top n books.
 
 * ##### Popular Books Yearly <br>
 This is the most basic model in which we have grouped all the books published in the same year and recommended the top-rated book yearly.
@@ -66,7 +66,7 @@ To train the Nearest Neighbours model, we have created a compressed sparse row m
 This system recommends books by calculating similarities in Book Titles. For this, TF-IDF feature vectors were created for unigrams and bigrams of Book-Titles; only those books' data has been considered which are having at least 80 ratings.
 
 #### 2.7 Hybrid Approach (Collaborative+Content) Recommendation
-Hybrid recommendation system was built using the combination of both content-based filtering and collaborative filtering systems. A percentile score is given to the results obtained from both content and collaborative filtering models and is combined to recommend top n books.
+A hybrid recommendation system was built using the combination of both content-based filtering and collaborative filtering systems. A percentile score is given to the results obtained from both content and collaborative filtering models and is combined to recommend top n books.
 
 ### 3. Libraries Used:
 
@@ -76,6 +76,6 @@ Hybrid recommendation system was built using the combination of both content-bas
 * numpy, scipy- number python library
 * pandas - data handling library
 
-### 4. Acknowledgements:
+### 4. Acknowledgments:
 
 Machine Learning Monsoon 2020 (CSE543) @IIIT Delhi
