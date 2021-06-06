@@ -1,6 +1,6 @@
 # Book Recommendation System
 ### Check Out Our Blog On Book Recommendation System Here:
-<a href=''>Book Recommendation System</a>
+<a href=https://ashima96.medium.com/building-a-book-recommendation-system-a98c58a4f1bb>Book Recommendation System</a>
 ## Description:
 <p>A book recommendation system which recommends books based on previous users preferences. </p>
 <p>Data used for this project was taken from <a href=''>here</a></p>
