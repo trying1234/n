@@ -45,7 +45,7 @@ For this model, we have sorted the books by rating for the same author and same 
 This is the most basic model in which we have grouped all the books published in the same year and recommended the top-rated book yearly.
 
 #### 2.2 Recommendation using Average Weighted Rating
-We have calculated the weighted score using the below formula, of all the books and recommended the books with the highest score. <br>
+We have calculated the weighted score using the below formula of all the books and recommended the books with the highest score. <br>
 score= t/(t+m)∗a + m/(m+t)∗c <br>
 where, <br>
 t represents the total number of ratings received by the book <br>
@@ -57,7 +57,7 @@ c represents the mean rating of all the books.
 Collaborative Filtering Recommendation System works by considering user ratings and finds cosine similarities in ratings by several users to recommend books. To implement this, we took only those books' data that have at least 50 ratings in all.
 
 #### 2.4 Correlation Based Recommendation
-For this model, we have created the correlation matrix considering only those books which have total ratings of more than 50. Then a user-book rating matrix. For the input book using the correlation matrix, top books are recommended.
+For this model, we have created the correlation matrix considering only those books which have total ratings of more than 50. Then a user-book rating matrix is created. For the input book using the correlation matrix, top books are recommended.
 
 #### 2.5 Nearest Neighbour Based Recommendation
 To train the Nearest Neighbours model, we have created a compressed sparse row matrix taking ratings of each Book by each User individually. This matrix is used to train the Nearest Neighbours model and then to find n nearest neighbors using the cosine similarity metric.
