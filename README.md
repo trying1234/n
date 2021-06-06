@@ -28,20 +28,35 @@ For Ratings Table:
 * Removal of punctuation from ISBN column values and if that resulting ISBN is available in the book dataset only then considering else drop that entity.
 * Upper-casing all the alphabets present in the ISBN column.
 * Removal of duplicate entries from the table.
+
 ### 2. Algorithms Implemented:
 #### 2.1 Popularity Based Recommendation :
 
+* ##### Popular in the Whole Collection <br>
+We have sorted the dataset according to the total ratings each of the books have received in non-increasing order and then recommended top n books.
 
-* Popular in the Whole Collection
-* Popular at a Given Place
-* Books By the Same Author, Publisher of Given Book Name
-* Popular Books Yearly
+* ##### Popular at a Given Place <br>
+The dataset was filtered according to a given place (city, state, or country) and then sorted it according to total ratings they have received by the users in decreasing order of that place and recommended top n books.
 
+* ##### Books By the Same Author, Publisher of Given Book Name <br>
+For this model we have sorted the books by rating for the same author and same publisher of given book and recommended top n books.
+
+* ##### Popular Books Yearly <br>
+This is the most basic model in which we have grouped all the books published in the same year and recommended the top-rated book yearly.
 
 #### 2.2 Recommendation using Average Weighted Rating
+We have calculated the weighted score using the below formula, of all the books and recommended the books with the highest score. <br>
+score= t/(t+m)∗a + m/(m+t)∗c <br>
+where, <br>
+t represents the total number of ratings received by the book <br>
+m represents the minimum number of total ratings considered to be included <br>
+a represents the average rating of the book and, <br>
+c represents the mean rating of all the books. 
  	
 #### 2.3 User-Item Collaborative Filtering Recommendation
+
 #### 2.4 Correlation Based Recommendation
+
 #### 2.5 Nearest Neighbour Based Recommendation
 
 #### 2.6 Content Based Recommendation
