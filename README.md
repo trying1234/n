@@ -45,8 +45,8 @@ For this model, we have sorted the books by rating for the same author and same 
 This is the most basic model in which we have grouped all the books published in the same year and recommended the top-rated book yearly.
 
 #### 2.2 Recommendation using Average Weighted Rating
-We have calculated the weighted score using the below formula of all the books and recommended the books with the highest score. <br>
-score= t/(t+m)∗a + m/(m+t)∗c <br>
+We have calculated the weighted score using the below formula for all the books and recommended the books with the highest score.
+<p align="center">score= t/(t+m)∗a + m/(m+t)∗c </p>
 where, <br>
 t represents the total number of ratings received by the book <br>
 m represents the minimum number of total ratings considered to be included <br>
